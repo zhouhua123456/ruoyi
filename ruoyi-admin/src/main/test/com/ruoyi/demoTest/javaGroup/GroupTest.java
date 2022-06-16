@@ -30,7 +30,7 @@ public class GroupTest {
         }*/
         System.out.println("测试");
         System.out.println("测试1");
-        System.out.println("测试2");
+        System.out.println("测试4");
 
         String s = Seq.getId(new AtomicInteger(20220613),1);
         System.out.println(s);
