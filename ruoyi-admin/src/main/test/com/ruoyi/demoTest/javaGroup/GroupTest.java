@@ -28,6 +28,8 @@ public class GroupTest {
         } catch (ParseException e) {
             e.printStackTrace();
         }*/
+        System.out.println("测试");
+        System.out.println("测试1");
 
         String s = Seq.getId(new AtomicInteger(20220613),1);
         System.out.println(s);
