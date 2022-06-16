@@ -1,0 +1,5 @@
+package com.ruoyi.demoTest.designPattern.bridgeDemo;
+
+public interface DrawAPI {
+    public void drawCircle(int radius, int x, int y);
+}
