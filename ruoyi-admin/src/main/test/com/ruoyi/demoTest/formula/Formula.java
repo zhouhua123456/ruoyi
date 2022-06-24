@@ -59,7 +59,7 @@ public class Formula {
 
 
     public static void main(String[] args) {
-        String formula = "1+2*3+(4+5)*2/3+((9+1)*2)";
+        String formula = "1.2+2*3+(4+5)*2/3+((9+1)*2)";
         JexlEngine jexlEngine = new JexlBuilder().create();
         JexlExpression expression = jexlEngine.createExpression(formula);
         Object evaluate = expression.evaluate(null);
