@@ -51,6 +51,9 @@ public class Card {
         List<Card> zhangsan = distribute(ADeckOfCards);
         List<Card> lisi = distribute(ADeckOfCards);
         System.out.println(ADeckOfCards.size());
+        for (Card card : lisi) {
+            System.out.println(card);
+        }
     }
 
 
