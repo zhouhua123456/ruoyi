@@ -50,7 +50,7 @@ public class Card {
         List<Card> zhouhua = distribute(ADeckOfCards);
         List<Card> zhangsan = distribute(ADeckOfCards);
         List<Card> lisi = distribute(ADeckOfCards);
-
+        System.out.println(ADeckOfCards.size());
     }
 
 
